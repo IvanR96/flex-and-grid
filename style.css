@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.child{
+    min-height: 100px;
+    background: pink;
+
+}
+
+.child p{
+    display: grid;
+   text-align: center;
+}
